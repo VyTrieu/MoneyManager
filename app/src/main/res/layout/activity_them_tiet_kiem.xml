@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.acer.quanlychitieu.ThemTietKiemActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtTieuChi"
+        android:hint="Tên"
+        android:inputType="textLongMessage"
+        android:paddingLeft="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mục tiêu"
+        android:paddingLeft="5dp"
+        android:textSize="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtMucTieu"
+        android:hint="Số tiền"
+        android:paddingLeft="5dp"
+        android:inputType="numberDecimal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số tiền ban đầu"
+        android:paddingLeft="5dp"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/edtTienBanDau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số tiền"
+        android:paddingLeft="5dp"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngày kết thúc"
+        android:id="@+id/txtNgayKetThuc"
+        android:textSize="14dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDone"
+        android:text="Xong"
+        android:textSize="24dp"/>
+
+</LinearLayout>

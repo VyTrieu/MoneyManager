@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/tongquan"
+            android:title="Tổng quan" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/piechart"
+            android:title="Thống kê" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/tietkiem"
+            android:title="Tiết kiệm" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/dangnhap"
+            android:title="Đăng nhập" />
+    </group>
+</menu>
